@@ -13,3 +13,6 @@ fi
 # Customize to your needs...
 eval "$(nodenv init - --no-rehash)"
 eval "$(rbenv init - --no-rehash)"
+
+# Bind history search
+bindkey "^R" history-incremental-search-backward
